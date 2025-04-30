@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flowing Blocks</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="excited.js"></script>
+    <script src="shame.js"></script>
+    <script src="anxiety.js"></script>
+    <script src="jealousy.js"></script>
+    <script src="joy.js"></script>
+    <script src="sadness.js"></script>
+    <script src="hope.js"></script>
+    <script src="anger.js"></script>
+    <script src="loneliness.js"></script>
+    <script src="fear.js"></script>
+    <style>
+        body {
+            margin: 0 auto;
+            
+            display: flex;
+            flex-wrap: wrap;
+            width: 100vw;
+            
+        }
+        #excited, #shame, #anxiety, #jealousy, #joy, #sadness, #hope, #anger, #loneliness, #fear {
+        width: 25vw;
+        
+        }
+        .serial-button {
+        display: block; /* 讓按鈕獨佔一行 */
+        width: 100%; /* 設定按鈕寬度 */
+        margin-bottom: 10px; /* 增加按鈕下方的間距 */
+        background-color: blanchedalmond;
+        }
+    </style>
+  </head>
+  <body>
+    <button id="connectButton" class="serial-button">連接超音波裝置</button>
+
+    <div id="excited"></div>
+    <div id="shame"></div>
+    <div id="jealousy"></div>
+    <div id="anxiety"></div>
+    <div id="joy"></div>
+    <div id="sadness"></div>
+    <div id="hope"></div>
+    <div id="anger"></div>
+    <div id="loneliness"></div>
+    <div id="fear"></div>
+
+  </body>
+</html>
